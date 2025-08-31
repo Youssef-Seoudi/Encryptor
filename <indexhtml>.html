@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Message Encryptor</title>
+</head>
+<body>
+    <h1>Message Encryptor</h1>
+    <div id="encryption">
+        <h2>Encrypt Message</h2>
+        <input type="text" id="message" placeholder="Enter your message">
+        <br>
+        <input type="number" id="key" min="1" max="10" placeholder="Enter key (1-10)">
+        <br>
+        <button onclick="encrypt()">Encrypt</button>
+        <br>
+        <div id="encryptedMessage"></div>
+    </div>
+
+    <div id="decryption">
+        <h2>Decrypt Message</h2>
+        <input type="text" id="cipher" placeholder="Enter encrypted message">
+        <br>
+        <input type="number" id="decryptionKey" min="1" max="10" placeholder="Enter key (1-10)">
+        <br>
+        <button onclick="decrypt()">Decrypt</button>
+        <br>
+        <div id="decryptedMessage"></div>
+    </div>
+</body>
+</html>
